@@ -1,0 +1,54 @@
+:root {
+    --color-sections: gainsboro;
+}
+
+section {
+    margin: 0px;
+    padding: 0px;;
+    background-color: var(--color-sections);
+}
+
+
+
+#profil {
+    margin:5%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+h1 {
+    font-size: 6rem;
+}
+
+#profil>img {
+    width: 40%;
+}
+
+#formation>div {
+    display: flex;
+    align-items: center;
+}
+
+#formation>div>img {
+    width:10%;
+    margin-right: 3%;
+}
+
+#formation>div>div>* {
+    margin-top:3px;
+    margin-bottom:3px;
+}
+
+#competences>ul>li>ul {
+    display: flex;
+}
+
+#competences>ul>li>ul>li {
+    width: 20%;
+    display: flex;
+}
+
+#competences p {
+    margin-left: 3px;
+}
