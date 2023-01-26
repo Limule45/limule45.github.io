@@ -1,6 +1,11 @@
 :root {
-  --color-background: white;
-  --color-headfoot: silver;
+  --color-background: gainsboro;
+  --color-header: dimgray;
+  --color-sep-line: darkslategray;
+  --color-footer: dimgray;
+  --color-navbar-element-bg-hover: gray;
+  --color-navbar-element-text: gainsboro;
+
 }
 body {
   background-color: var(--color-background);
@@ -8,25 +13,50 @@ body {
 }
 
 header {
-  background-color: var(--color-headfoot);
-  padding: 0.5%;
+  background-color: var(--color-header);
+  padding: 0%;
+  padding-bottom:0px;
 }
 
 nav {
   display: flex;
-  justify-content: space-around;
+}
+header>div {
+  padding-bottom: 0.3%;
+  background-color: var(--color-sep-line);
 }
 
 
+nav>a {
+  color: var(--color-navbar-element-text);
+  text-decoration: none;
+  padding-left: 1.5%;
+  padding-right: 1.5%;
+  padding-top: 0.5%;
+  padding-bottom: 0.5%;
+}
+
+nav>a:hover {
+  background-color: var(--color-navbar-element-bg-hover);
+}
 main {
   margin:1%;
 }
 
 footer {
-  background-color: var(--color-headfoot);
+  background-color: var(--color-footer);
   display: flex;
   justify-content: space-around;
   padding: 0.5%;
+}
+
+footer a {
+  text-decoration: none;
+  color: var(--color-navbar-element-text);
+}
+
+footer a:hover {
+  background-color: var(--color-navbar-element-bg-hover);
 }
 
 ul li {

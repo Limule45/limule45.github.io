@@ -1,5 +1,5 @@
 :root {
-    --color-sections: gainsboro;
+    --color-sections: silver;
 }
 
 section {
@@ -7,7 +7,6 @@ section {
     padding: 0px;;
     background-color: var(--color-sections);
 }
-
 
 
 #profil {
@@ -51,4 +50,8 @@ h1 {
 
 #competences p {
     margin-left: 3px;
+}
+
+#contact img {
+    width: 1%;
 }
