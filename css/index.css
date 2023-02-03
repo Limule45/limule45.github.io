@@ -55,3 +55,43 @@ h1 {
 #contact img {
     width: 1%;
 }
+
+#portefolio ul {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(2,1fr);
+}
+
+#portefolio ul>li:nth-of-type(1) {
+    grid-column: 1 / span 1;
+    grid-row: 1 / span 1 ;
+}
+
+#portefolio ul>li:nth-of-type(2) {
+    grid-column: 2 / span 1;
+    grid-row: 1 / span 1 ;
+}
+
+#portefolio ul>li:nth-of-type(3) {
+    grid-column: 3 / span 1;
+    grid-row: 1 / span 1;
+}
+
+#portefolio ul>li:nth-of-type(4) {
+    grid-column: 1 / span 1;
+    grid-row: 2 / span  1 ;
+}
+
+#portefolio ul>li:nth-of-type(5) {
+    grid-column: 2 / span 1;
+    grid-row: 2 / span  1 ;
+}
+
+#portefolio ul>li {
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
+#portefolio img {
+    width: 100%;
+}
