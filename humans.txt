@@ -1,0 +1,10 @@
+/* TEAM */
+    Author: Théo Cattaneo
+    Site: limule45.github.io
+    Location: Lille, France
+
+
+/* SITE */
+    Last update: 2023/02/03
+    Language: French
+    Doctype: HTML5
