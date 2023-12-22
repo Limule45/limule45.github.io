@@ -209,6 +209,10 @@ nav>a:hover {
     justify-content: space-between;
 }
 
+#projets h5 {
+    margin-bottom: 0;
+}
+
 /* Contact */
 
 #contact>div {
