@@ -1,5 +1,5 @@
 /* global */
-main {
+main, footer {
     padding-left: 5%;
     padding-right: 5%;
 }
@@ -20,6 +20,45 @@ nav>a {
   
 nav>a:hover {
     background-color: lightgray;
+}
+
+/* Profil */
+
+#profil {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5%;
+    margin-bottom: 4%;
+}
+
+#profil>img {
+    width: 7%
+}
+
+#profil>div {
+    margin-left: 46%;
+}
+
+#profil>div img {
+    width: 3%;
+    margin: 0.8%;
+}
+
+/* presentation */
+
+#presentation {
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-bottom: 4%;
+    font-size:large;
+    background-color: lightgray;
+    padding: 1%;
+    border-radius: 50px 0px;
+}
+
+#presentation:hover {
+    transform: scale(1.1);
 }
 
 /* formation */
@@ -72,8 +111,6 @@ nav>a:hover {
     width: 50px;
 }
 
-
-
 /* projets */
 
 #projets img {
@@ -102,4 +139,15 @@ nav>a:hover {
 
 #projets>div>* {
     justify-content: space-between;
+}
+
+/* Contact */
+
+#contact>div {
+    margin-left:45%;
+}
+
+#contact img {
+    width: 6%;
+    margin: 1%;
 }
