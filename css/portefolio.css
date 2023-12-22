@@ -4,22 +4,37 @@ main, footer {
     padding-right: 5%;
 }
 
+main {
+    padding-top: 3%;
+}
+
+h2 {
+    margin-top: 0;
+    padding-top: 3%;
+}
+
 /* navigation */
 
 nav {
-    display:flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    background-color:lightgray;
 }
 
 nav>a {
     text-decoration: none;
     padding-left: 1.5%;
     padding-right: 1.5%;
-    padding-top: 0.5%;
-    padding-bottom: 0.5%;
+    padding-top: 0.6%;
+    padding-bottom: 0.6%;
+    color: black;
 }
   
 nav>a:hover {
-    background-color: lightgray;
+    background-color: darkgray;
 }
 
 /* Profil */
