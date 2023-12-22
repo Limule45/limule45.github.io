@@ -104,6 +104,8 @@ nav>a:hover {
 
 #competences>div {
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 #competences>div>div {
@@ -114,16 +116,64 @@ nav>a:hover {
     margin: 1%;
     align-self:flex-end;
     align-items: center;
-    border-radius: 20px;
+    border-radius: 30px;
+    padding: 0.3%;
+}
+
+#competences>div>div:nth-of-type(1) {
+    flex: 0 0 14%;
+}
+
+#competences>div>div:nth-of-type(2) {
+    flex: 0 0 16%;
+}
+
+#competences>div>div:nth-of-type(3) {
+    flex: 0 0 7%;
+}
+
+#competences>div>div:nth-of-type(4) {
+    flex: 0 0 8%;
+}
+
+#competences>div>div:nth-of-type(5) {
+    flex: 0 0 7%;
+}
+
+#competences>div>div:nth-of-type(6) {
+    flex: 0 0 7%;
+}
+
+#competences>div>div:nth-of-type(7) {
+    flex: 0 0 11%;
+}
+
+#competences>div>div:nth-of-type(8) {
+    flex: 0 0 7%;
+}
+
+#competences>div>div:nth-of-type(9) {
+    flex: 0 0 6%;
+}
+
+#competences>div>div:nth-of-type(10) {
+    flex: 0 0 6%;
+}
+
+#competences>div>div:nth-of-type(11) {
+    flex: 0 0 6%;
 }
 
 #competences>div>div:hover {
     background-color: lightgray;
+    border-color: gray;
     transform: scale(1.2);
 }
 
 #competences img {
     width: 50px;
+    margin-left: 3%;
+    margin-right: 2%;
 }
 
 /* projets */
@@ -146,6 +196,9 @@ nav>a:hover {
     padding: 1%;
     margin: 1%;
     border-radius: 20px 0px; 
+    border-style: groove;
+    border-width: 1px;
+    border-color: gray;
 }
 
 #projets>div>div:hover {
