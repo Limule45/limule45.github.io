@@ -1,0 +1,235 @@
+/* global */
+main, footer {
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+main {
+    padding-top: 3%;
+}
+
+h2 {
+    margin-top: 0;
+    padding-top: 3%;
+}
+
+/* navigation */
+
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    background-color:lightgray;
+}
+
+nav>a {
+    text-decoration: none;
+    padding-left: 1.5%;
+    padding-right: 1.5%;
+    padding-top: 0.6%;
+    padding-bottom: 0.6%;
+    color: black;
+}
+  
+nav>a:hover {
+    background-color: darkgray;
+}
+
+/* Profil */
+
+#profil {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5%;
+    margin-bottom: 4%;
+}
+
+#profil>img {
+    width: 7%
+}
+
+#profil>div {
+    margin-left: 46%;
+}
+
+#profil>div img {
+    width: 3%;
+    margin: 0.8%;
+}
+
+/* presentation */
+
+#presentation {
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-bottom: 4%;
+    font-size:large;
+    background-color: lightgray;
+    padding: 1%;
+    border-radius: 50px 0px;
+}
+
+#presentation:hover {
+    transform: scale(1.1);
+}
+
+/* formation */
+
+#formation img {
+    width: 8%;
+    align-self:flex-start;
+    margin-top: 1%;
+}
+
+#formation>div>div {
+    display: flex;
+}
+
+#formation>div>div:nth-of-type(2) img {
+    width: 7%;
+}
+
+#formation>div>div>div {
+    margin-left: 3%;
+}
+
+#formation>div>div:nth-of-type(2)>div {
+    margin-left: 4%;
+}
+
+/* competences */
+
+#competences>div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+}
+
+#competences>div>div {
+    border-style:solid;
+    border-color: lightgray;
+    display: flex;
+    background-color: white;
+    margin: 1%;
+    align-self:flex-end;
+    align-items: center;
+    border-radius: 30px;
+    padding: 0.3%;
+}
+
+#competences>div>div:nth-of-type(1) {
+    flex: 0 0 25%;
+}
+
+#competences>div>div:nth-of-type(2) {
+    flex: 0 0 16%;
+}
+
+#competences>div>div:nth-of-type(3) {
+    flex: 0 0 7%;
+}
+
+#competences>div>div:nth-of-type(4) {
+    flex: 0 0 8%;
+}
+
+#competences>div>div:nth-of-type(5) {
+    flex: 0 0 7%;
+}
+
+#competences>div>div:nth-of-type(6) {
+    flex: 0 0 7%;
+}
+
+#competences>div>div:nth-of-type(7) {
+    flex: 0 0 11%;
+}
+
+#competences>div>div:nth-of-type(8) {
+    flex: 0 0 7%;
+}
+
+#competences>div>div:nth-of-type(9) {
+    flex: 0 0 6%;
+}
+
+#competences>div>div:nth-of-type(10) {
+    flex: 0 0 6%;
+}
+
+#competences>div>div:nth-of-type(11) {
+    flex: 0 0 6%;
+}
+
+#competences>div>div:hover {
+    background-color: lightgray;
+    border-color: gray;
+    transform: scale(1.2);
+}
+
+#competences img {
+    width: 50px;
+    margin-left: 3%;
+    margin-right: 2%;
+}
+
+/* projets */
+
+#projets img {
+    width: 100%;
+}
+
+#projets>div {
+    display: flex;
+    flex-wrap: wrap;  
+}
+
+#projets>div>div {
+    display:flex;
+    flex-direction: column;
+
+    flex: 0 0 29%;
+    background-color: lightgray;
+    padding: 1%;
+    margin: 1%;
+    border-radius: 20px 0px; 
+    border-style: groove;
+    border-width: 1px;
+    border-color: gray;
+}
+
+#projets>div>div:hover {
+    transform: scale(1.1);
+}
+
+#projets>div>* {
+    justify-content: space-between;
+}
+
+#projets h5 {
+    margin-bottom: 0;
+}
+
+/* Contact */
+
+#contact>div {
+    margin-left:45%;
+}
+
+#contact img {
+    width: 6%;
+    margin: 1%;
+}
+
+#competences>div>p {
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-bottom: 4%;
+    font-size:large;
+    background-color: lightgray;
+    padding: 1%;
+    border-radius: 50px 0px;
+}
